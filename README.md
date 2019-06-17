@@ -1,6 +1,6 @@
 # Color Game
 
 * Guess which color is the RGB color
-* Technology: vanilla JavaScript
+* Technology: Bootstrap, vanilla JavaScript
 
 ![Image of main page](./colorGame.jpg)

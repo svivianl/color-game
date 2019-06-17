@@ -7,7 +7,7 @@ body{
 
 .square{
   width: 100%;
-  height: 250px;
+  height: 10rem;
   /* width: 30%; */
   background: purple;
   padding-bottom: 30%;
@@ -23,13 +23,13 @@ body{
 
 #container{
   max-width: 700px;
-  margin: 20px auto;
+  margin: 1rem auto;
 }
 
 #stripe{
   background-color: white;
   color: black;
-  height: 30px;
+  height: 2rem;
   text-align: center;
 }
 
@@ -45,7 +45,7 @@ h1{
   font-weight: normal;
   text-transform: uppercase;
   line-height: 1.1; /*changes the spaces between the lines*/
-  padding:  20px 0; /* top and botton */
+  padding:  1rem 0; /* top and botton */
 }
 
 #colorDisp{
@@ -60,7 +60,7 @@ button{
   height: 100%; /*100% of the container*/
   color: steelblue;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
   font-size: inherit;
   /* this transition is done so the changes take a wile to be done (easier to be seen)*/
   /* you have to put which property (in this case are color and background-color) do you want to make the change and how long is it going to take (in seconds) */
