@@ -1,0 +1,83 @@
+body{
+  background-color:  #232323;
+  color: white;
+  margin: 0;
+  /*font-family: "Monteserrat", "Avenir";*/
+}
+
+.square{
+  width: 100%;
+  height: 250px;
+  /* width: 30%; */
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 15%;
+  /* border-radius: 50%; => circle*/
+  transition: backgroung 0.6s;
+  /* to make the transition work in every browser*/
+  -webkit-transition: backgroung 0.6s;
+  -moz-transition: backgroung 0.6s;
+}
+
+#container{
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+#stripe{
+  background-color: white;
+  color: black;
+  height: 30px;
+  text-align: center;
+}
+
+.selected{
+  background-color: steelblue;
+  color: white;
+}
+
+h1{
+  text-align: center;
+  background-color: steelblue;
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.1; /*changes the spaces between the lines*/
+  padding:  20px 0; /* top and botton */
+}
+
+#colorDisp{
+  font-size: 200%; /* 200% of the h1 */
+}
+
+button{
+  border: none;
+  font-family: "Monteserrat", "Avenir";
+  background: none;
+  text-transform: uppercase;
+  height: 100%; /*100% of the container*/
+  color: steelblue;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: inherit;
+  /* this transition is done so the changes take a wile to be done (easier to be seen)*/
+  /* you have to put which property (in this case are color and background-color) do you want to make the change and how long is it going to take (in seconds) */
+  transition: all 0.3s;
+  /* to make the transition work in every browser*/
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  /*everytime you click a button, there is kind of an outline that stays in the button, so to take it off you need to code the outline */
+  outline: none;
+}
+
+button:hover {
+  color: white;
+  background-color: steelblue;
+}
+
+#msg{
+  display: inline-block;
+  width: 20%; /*20% of the screen*/
+}
